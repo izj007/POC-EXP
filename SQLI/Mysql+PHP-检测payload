@@ -9,6 +9,7 @@ or 1=1--+
 
 version()           
 user()               
-database()           
+database()   
+group_concat(schema_name) from information_schema.schemata
 @@datadir            
 @@version_compile_os 
