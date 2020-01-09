@@ -5,7 +5,7 @@ or 1=1--+
 ')or 1=1--+
 ") or 1=1--+
 "))or 1=1--+
-
+or not 1=1# 和 or not 1=2  #基于update注入判断
 
 version()           
 user()               
