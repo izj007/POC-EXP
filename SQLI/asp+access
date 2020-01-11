@@ -1,5 +1,22 @@
 （1）
-order by
+'
+and 1=1 
+
 
 （2）
+order by
+
+（3）
 union select * from
+
+(4)
+and select from
+
+(5)
+and 0<>(select count(*) from
+
+(5)
+ and （select top 1 len
+ 
+ (6)
+ and （select top 1 asc（mid
