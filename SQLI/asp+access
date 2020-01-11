@@ -1,8 +1,14 @@
+一：
 （1）
 '
 and 1=1 
+（2）
+and exists (select * from admin)  #存在有回显否则返回错误信息
 
 
+
+
+二：
 （2）
 order by
 
